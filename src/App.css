@@ -1,0 +1,26 @@
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+:root{
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.allInfo{
+  
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid white;
+padding: 0px 15px;
+
+}
+img{
+  border-radius: 50%;
+}
