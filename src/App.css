@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 15px;
 }
 :root{
 
@@ -23,4 +22,17 @@ padding: 0px 15px;
 }
 img{
   border-radius: 50%;
+}
+header{
+  width: 100%;
+  text-align: center;
+  background-color: darkblue;
+  padding: 15px;
+}
+main{
+  background-color: black ;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+
 }

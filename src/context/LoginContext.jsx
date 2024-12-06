@@ -13,12 +13,8 @@ useEffect(()=>{
     localStorage.setItem('user', JSON.stringify(registredUser))
 },[registredUser])
 
-let [accessGranted, setAccessGranted] = useState(false)
-
-
-
 return(
     <>
-    <LoginContext.Provider value={{registredUser, setRegistredUser, accessGranted, setAccessGranted}}>{children}</LoginContext.Provider>
+    <LoginContext.Provider value={{registredUser, setRegistredUser}}>{children}</LoginContext.Provider>
     </>
 )}

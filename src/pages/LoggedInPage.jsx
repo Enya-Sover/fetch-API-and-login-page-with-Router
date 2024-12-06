@@ -8,13 +8,17 @@ const LoggedInPage = () => {
 
   const capitalizeFirstLetter = (user)=>{
     return user.charAt(0).toUpperCase() + user.slice(1)
-
   }
+  
   return (
     <>
+    <header>
     <h1>Welcome {capitalizeFirstLetter(id)}</h1>
+    </header>
+<main>
       <AddUserButton />
       <UserList />
+    </main>
       <Link to='/'>Log out</Link>
     </>
   );

@@ -9,11 +9,11 @@ import { LoginContext, LoginContextProvider } from "./context/LoginContext.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <LoginContextProvider>
-    <UserContextProvider>
-      <Router>
-        <App />
-      </Router>
-    </UserContextProvider>
+      <UserContextProvider>
+        <Router>
+          <App />
+        </Router>
+      </UserContextProvider>
     </LoginContextProvider>
   </StrictMode>
 );
